@@ -1,5 +1,5 @@
 {
-    "name": "sellony/router",
+    "name": "sellony/route",
     "type": "library",
     "autoload": {
         "psr-4": {
