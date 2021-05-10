@@ -1,14 +1,10 @@
 <?php
 
-/**
- * @package Sellony Api | Channel::Admin
- * @author Cemre Fatih Karakulak <cradexco@gmail.com>
- */
 
-namespace Sellony\Router\Annotation;
+namespace Sellony\Route\Annotation;
 
 use Slim\App;
-use Sellony\Router\Annotation\RouteAnnotation;
+use Sellony\Route\Annotation\RouteAnnotation;
 
 class RouteAnnotation
 {

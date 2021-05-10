@@ -1,11 +1,7 @@
 <?php
 
-/**
- * @package Sellony Api | Channel::Admin
- * @author Cemre Fatih Karakulak <cradexco@gmail.com>
- */
 
-namespace Sellony\Router\Annotation;
+namespace Sellony\Route\Annotation;
 
 class CollectorRoute
 {

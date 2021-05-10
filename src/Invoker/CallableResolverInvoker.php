@@ -1,11 +1,7 @@
 <?php
 
-/**
- * @package Sellony Api | Channel::Admin
- * @author Cemre Fatih Karakulak <cradexco@gmail.com>
- */
 
-namespace Sellony\Router\Invoker;
+namespace Sellony\Route\Invoker;
 
 use NotCallableException;
 use Psr\Container\ContainerInterface;

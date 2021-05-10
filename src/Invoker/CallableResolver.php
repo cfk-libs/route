@@ -1,14 +1,10 @@
 <?php
 
-/**
- * @package Sellony Api | Channel::Admin
- * @author Cemre Fatih Karakulak <cradexco@gmail.com>
- */
 
-namespace Sellony\Router\Invoker;
+namespace Sellony\Route\Invoker;
 
 use Slim\Interfaces\CallableResolverInterface;
-use Sellony\Router\Invoker\CallableResolverInvoker;
+use Sellony\Route\Invoker\CallableResolverInvoker;
 
 /**
  * Resolve middleware and route callables using PHP-DI.
