@@ -18,6 +18,12 @@ class Annotator
 
     public function compile(string $path)
     {
+        $this->path = $path;
+
+        if (file_exists($path)) {
+            return $this;
+        }
+
         return $this->inject($this->cast($this->files), $path);
     }
 
@@ -98,8 +104,6 @@ class Annotator
 
     public function inject(Collection $routes, string $path)
     {
-        $this->path = $path;
-
         $template = file_get_contents(__DIR__ . '/stubs/routes.stub');
 
         $routes = $routes->sortBy(function($item) {
