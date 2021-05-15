@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * @package Sellony Api | Channel::Admin
+ * @author Cemre Fatih Karakulak <cradexco@gmail.com>
+ * Application Routes
+ */
+
+return function ($app) {
+  {{ content }}
+};
